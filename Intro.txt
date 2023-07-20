@@ -1,0 +1,24 @@
+For years, customers have use social media platforms to express their concerns, complains or rarerly thanks an specific airline. Up to now, Twitter has been the number one platform to do so, with over 400 millions users. 
+  
+This dataset contains over 10,000+ rows of data collected from Twitter by scraping Airline related tweets on from 2/16/2015 - 2/24/2015. Data Source: https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment. Retrieved: [July 18, 2023]
+
+| Column Names | Description |
+| -------------: | :--------------- |
+| tweet_id | ID of tweet |
+| airline_sentiment | Sentiment of tweet |
+| airline_sentiment_confidence | Confidence of sentiment |
+| negativereason | Negative reason |
+| negativereason_confidence | Confidence of negative reason |
+| airline | Name of the airline |
+| airline_sentiment_gold | This column is the gold standard sentiment of the tweet. |
+| name | Users name |
+| negativereason_gold | This column is the gold standard negative reason for the sentiment |
+| retweet_count | Number of retweets |
+| text | Tweet itself |
+| tweet_cord | Tweet coordinates |
+| tweet_created | Date of creation of the tweet |
+| tweet_location | Location of the user |
+| user_timezone | Timezone of the user |   
+    
+Objective:
+To analyze a dataset, explain the code used and share findings and insights. The assignment should showcase data collection and cleaning, descriptive data analysis and code quality, analytical techniques, and should include a presentation regarding insights gained from said analysis.  

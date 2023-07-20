@@ -1,0 +1,15 @@
+Conclusions:
+
+After all the analysis made above, some key takeaways are: 
+
+* Regarding the Predictive Model: As seen, it predicts with 78% of accuracy the tweets sentiment, having a higher score for the negative sentiment. In the future, this model can be test against new airline tweets to analyze and compare the results vs the ones achieved today.   
+    
+    
+* Regarding Positive Feeling: Even though only 16% of the tweets had a positive sentiment, the n-grams that pop up were extremely positive, with a gratitude and thankful feeling towards the airline. Of the 6 airlines, Southwest and Delta were the ones with most positive sentiment tweets.    
+    
+    
+* Regarding Negative Feeling: Customer Service Issue seems to be the common pain point throughout the airlines, which is not surprising as they make you wait for a while before being able to talk to someone and they may not be able to solve your problem right away. Working on strategies to improve this pain point may help the airline gain a bigger market share as more customer would like to travel in an airline with better customer service.<br>
+
+    According to the Air Travel Consumer Report 2021, Delta have a score of 75 over 100 points on customer satisfaction, being the airline with the highest score regarding the other 5 mentioned in this data. While Jetblue have a score of 32.64, the rest of the airlines stay around the 50 points.
+
+    Data Source: https://upgradedpoints.com/travel/airlines/best-and-worst-airline-customer-service/ 
