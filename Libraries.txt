@@ -1,0 +1,65 @@
+Libraries:
+
+import warnings
+warnings.filterwarnings('ignore')
+
+# !pip3 install tabulate
+
+# Basic libraries to manipulate data
+import re
+import os
+import time
+import string
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from plotly import tools
+import plotly.graph_objs as go
+from plotly.offline import iplot
+import plotly.express as px
+
+%matplotlib inline
+
+# Libraries for text mining
+import nltk
+from nltk.tokenize import RegexpTokenizer
+from nltk.stem import WordNetLemmatizer,PorterStemmer
+from nltk.corpus import stopwords
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from nltk.util import bigrams
+from nltk.util import ngrams
+from nltk.stem import PorterStemmer
+import re
+from collections import Counter
+from collections import defaultdict
+from wordcloud import WordCloud,STOPWORDS
+from ast import literal_eval
+from textblob import TextBlob #sentiment
+from PIL import Image
+from tabulate import tabulate
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('omw-1.4')
+nltk.download('vader_lexicon')
+
+
+# Libraries for predictive models
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.feature_selection import RFE
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC, LinearSVC, NuSVC
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.naive_bayes import BernoulliNB, MultinomialNB
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import accuracy_score,confusion_matrix,classification_report
+
+import calendar
