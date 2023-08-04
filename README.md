@@ -1,7 +1,5 @@
 # US-Airlines-Sentiment---Tweets
 
-# Project Title
-
 For years, customers have use social media platforms to express their concerns, complains or rarerly thanks an specific airline. 
 Up to now, Twitter has been the number one platform to do so, with over 400 millions users. 
   
