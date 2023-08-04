@@ -14,3 +14,7 @@ descriptive data analysis and code quality, analytical techniques, and should in
 
 The libraries used in the project are attached in the Libraries txt file
 
+## Analysis & Recommendations
+
+Please see Analysis & Recommendations txt file attached
+
